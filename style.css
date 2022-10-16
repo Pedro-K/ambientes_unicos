@@ -1,0 +1,84 @@
+@import url('./assets/font/Inter/Inter-Regular.ttf');
+@import url('./assets/font/Inter/Inter-Bold.ttf');
+@import url('./assets/font/Open_Sans/OpenSans-Regular.ttf');
+@import url('./assets/font/Open_Sans/OpenSans-Bold.ttf');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #7D7987;
+    letter-spacing: 0;
+}
+
+main,footer{
+    min-width: 250px;
+    max-width: 592px;
+    width: 100%;
+    margin: auto;
+}
+
+main div{
+    text-align: center;
+}
+
+main div img{
+    margin-bottom: 72px;
+    max-width: 348px;
+    width: 100%;
+}
+
+main div #title{
+    color: #000;
+}
+
+main div #title,
+main div #title span{
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+main div #title span,
+main div .text strong{
+    font-weight: bold;
+}
+
+main div #title, main div .text{
+    margin-bottom: 32px;
+}
+
+main div .text{
+    line-height: 28px;
+}
+
+footer{
+    margin-top: 72px;
+    border-top: 1px solid #ECEFF2;
+    padding: 8px 0 12px 0;
+    max-width: 696px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    gap: 28.5px;
+    align-items: center;
+}
+
+main div span,
+footer a{
+    color: orange;
+}
+
+footer #balls{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
